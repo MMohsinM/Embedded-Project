@@ -8,7 +8,7 @@ The preprocessing was done using openCV which was used to resize the images to 2
 SKlearn train test split was used to split the data into train and validation set 
 ImageDataGenerator from Kaggle was used for data augmentation as well feeding batches to the model.
 
-# Archeture 
+# Architechture 
 The densenet121 model pretrained on imagenet was downloaded via the keras Application module.
 75% of the model was frozen and 25% of the model was unfrozen and used in training. Two small 
 fully connected layer with 8 and 1 unit were added after the model and  the final year had a 
