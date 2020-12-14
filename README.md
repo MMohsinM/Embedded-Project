@@ -4,8 +4,8 @@ The architecture used here is DenseNet available pretrained on imageNet at keras
 The dataset was obtained from kaggle and google images. 
 
 # Preprocessing
-The preprocessing was done using openCV which was used to resize the images to 224x224 image size
-SKlearn train test split was used to split the data into train and validation set 
+The preprocessing was done using openCV which was used to resize the images to 224x224 image size.
+SKlearn train test split was used to split the data into train and validation set. 
 ImageDataGenerator from Kaggle was used for data augmentation as well feeding batches to the model.
 
 # Architechture 
